@@ -36,3 +36,10 @@ ln -sf "$dot" "$home"
 ```
 echo " Reload your environment by using source ~/.bashrc or logging out"
 ```
+
+### Resources
+[This link explained and showed how to check for a created symlink](https://stackoverflow.com/questions/5767062/how-to-check-if-a-symlink-exists) I used this to check if the symlink exists and used it for my code.
+
+[This link helps with determining whether a directory exists](https://sentry.io/answers/determine-whether-a-directory-exists-in-bash/) I used this to see what flag I should use when checking if a file already exists.
+
+[This link is for flags for the symbolic link](https://www.freecodecamp.org/news/linux-ln-how-to-create-a-symbolic-link-in-linux-example-bash-command/) I used this link for the flags for my symbolic link.
