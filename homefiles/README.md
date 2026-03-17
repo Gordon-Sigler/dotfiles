@@ -20,7 +20,7 @@ dot="/home/g_sigler/dotfiles/homefiles/.bash_aliases"
 home="/home/g_sigler/.bash_aliases"
 ```
 
-* The second part of the code checks to see if the .bash_aliases exsists in my homedirectory and to see if there is a symbolic link or not. After that it moves my .bash_aliases file to a .bash_aliases.backup file.
+* The second part of the code checks to see if the .bash_aliases exists in my home directory and to see if there is a symbolic link or not. After that it moves my .bash_aliases file to a .bash_aliases.backup file.
 ```
 if [ -f "$home" ] && [ ! -L "$home" ]; then
         mv "$home" "$home.backup"
