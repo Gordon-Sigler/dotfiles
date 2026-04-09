@@ -51,4 +51,4 @@ echo "install is complete try running 'aws --version' to check! "
 
 [Installing or updating to the latest version of the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) This was used to acquire AWS CLI, unzip it, and install it.
 
-I Do have to state I was having some problems with my code syntax wise and have gemini figure out why it wasn't working, also I used the gemini response from google for a few things, for instance the -q in `unzip -q awscliv2.zip` to make it quiet. Things like that and to explain the &> which I found in the first resource. 
+I do have to state I was having some problems with my code syntax wise and had gemini figure out why it wasn't working. Also I used the gemini response from google for a few things, for instance the -q in `unzip -q awscliv2.zip` to make it quiet. Things like that and to explain the &> which I found in the first resource. 
